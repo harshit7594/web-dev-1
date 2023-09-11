@@ -1,0 +1,82 @@
+body{
+    background: linear-gradient(to left,rgb(2, 2, 58),rgb(64, 1, 64),purple);
+}
+.container{
+border: 2px solid white;
+width: 500px;
+background-color: white;
+height: 350px;
+border-radius: 30px;
+box-shadow: 10px 10px 25px ;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.heading{
+    margin-left: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input{
+width: 250px;
+border-radius: 20px;
+padding: 10px;
+margin-left: 40px;
+background-color: lightgrey;
+}
+.btn{
+border-radius: 20px;
+padding: 10px;
+width: 75px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 700;
+background-color: orange;
+cursor: pointer;
+margin-left: 5px;
+}
+.btn:hover{
+    background-color: white;
+}
+#todo{
+    height: 40px;
+    border-radius: 20px;
+    background-color: yellow;
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: oblique;
+}
+option{
+    background-color: black;
+    color: white;
+}
+.task ul{
+    position: relative;
+    background-color: green;
+    font-size: 20px;
+    padding: 6px;
+    border: 3px solid black;
+    width: 400px;
+    font-weight: 700;
+}
+.task ul:hover{
+    background-color: white;
+    border: 0px;
+}
+.task ul span{
+    position: absolute;
+    right: 10px;
+    color: white;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2px;
+}
+.task ul span:hover{
+background-color: grey;
+color: black;
+}
